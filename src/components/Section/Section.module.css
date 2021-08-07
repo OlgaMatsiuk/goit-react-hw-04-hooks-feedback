@@ -1,0 +1,28 @@
+.container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .title {
+    margin-top: 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 70%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 50%;
+    }
+  }
